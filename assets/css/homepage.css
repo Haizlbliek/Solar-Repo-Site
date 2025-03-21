@@ -60,30 +60,11 @@
 
 
 /* BACKGROUND */
-.background_container {
-    top: 749px;
-
-}
-.background_container .background {
-    background-image: url(../media/img/background/Homepage.jpg);
-    top: -50px;
-    height: calc(100vh + 50px);
-}
-@media only screen and (min-width: 154.59vh) {
-    .background_container .background {
-        height: 64.69vw;
-    }
-}
-
 .transition_gradient {
     top: 749px;
 }
 
 @media only screen and (max-width: 1140px) {
-    .background_container {
-        top: 65.7vw;
-    }
-
     .transition_gradient {
         top: 65.7vw;
     }
