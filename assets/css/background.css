@@ -1,0 +1,16 @@
+.background_container {
+	overflow: visible;
+	z-index: -1;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+}
+
+.background_container .background {
+    background-image: url(../media/img/background/Homepage.jpg);
+    background-position: center;
+    background-size: 100vmax 75vmax;
+    width: 150vw;
+    height: 150vh;
+    transform: translate(-25vw, 0);
+}
